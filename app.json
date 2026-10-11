@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Fincan Falı",
+    "slug": "fincan-fali",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.ornek.fincanfali",
+      "versionCode": 1,
+      "permissions": ["CAMERA", "READ_MEDIA_IMAGES"]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Kahve falı yorumlatmak için bir fincan fotoğrafı seçebilirsin.",
+          "cameraPermission": "Kahve fincanının fotoğrafını çekmek için kamera izni gerekiyor."
+        }
+      ]
+    ]
+  }
+}
